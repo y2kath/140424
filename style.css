@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-image: url(img/descarga.jpeg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     position: relative;
+     align-items: center;
+     text-align: center;
+     min-height: 40vh;
+     padding: 100px 0;
+     color: #FFF;
+}
+
+h1, h2, h3 {
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.instrucciones{
+    padding: 2px;
+    margin: 20px;
+    background-color: rgb(73, 102, 151);
+    border: 0;
+    border-radius: 25px;
+}
+
+section {
+    padding: 20px;
+}
+
+.content {
+    text-align: center;
+    margin: 20px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.content li a {
+    display: block;
+    padding: 5px 0;
+}
+
+a {
+    color: #546b83;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
